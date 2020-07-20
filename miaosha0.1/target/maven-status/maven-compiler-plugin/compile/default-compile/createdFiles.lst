@@ -1,0 +1,8 @@
+com\miaoshaproject\controller\UserController.class
+com\miaoshaproject\service\model\UserModel.class
+com\miaoshaproject\service\UserService.class
+com\miaoshaproject\dataobject\UserDO.class
+com\miaoshaproject\dataobject\UserPasswordDO.class
+com\miaoshaproject\dao\UserDOMapper.class
+com\miaoshaproject\service\impl\UserServiceImpl.class
+com\miaoshaproject\dao\UserPasswordDOMapper.class
