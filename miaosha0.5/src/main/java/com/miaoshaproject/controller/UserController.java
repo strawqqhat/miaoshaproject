@@ -119,6 +119,7 @@ public class UserController extends BaseController {
     }
 
     @RequestMapping("/get")
+	@ResponseBody
     public CommonReturnType getUser(@RequestParam(name = "id") Integer id) throws BusinessException {
         //调用service服务获取对应id对象返回给前端
         UserModel userModel = userService.getUserById(id);
