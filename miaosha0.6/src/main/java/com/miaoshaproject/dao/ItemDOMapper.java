@@ -1,6 +1,9 @@
 package com.miaoshaproject.dao;
 
 import com.miaoshaproject.dataobject.ItemDO;
+import com.miaoshaproject.service.model.ItemModel;
+
+import java.util.List;
 
 public interface ItemDOMapper {
     /**
@@ -9,6 +12,8 @@ public interface ItemDOMapper {
      *
      * @mbg.generated Thu Jul 23 16:01:27 CST 2020
      */
+    List<ItemDO> listItem();
+
     int deleteByPrimaryKey(Integer id);
 
     /**
